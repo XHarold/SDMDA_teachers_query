@@ -1,0 +1,10 @@
+.el-form-item__label {
+
+    color: #101011 !important;
+    font-size: larger !important;
+}
+
+.el-pagination__total{
+    color: rgb(0, 0, 0) !important;
+    font-size: larger !important;
+}

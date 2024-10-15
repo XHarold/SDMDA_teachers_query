@@ -1,0 +1,27 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+/* 这是老师卡片的鼠标悬停效果 */
+@media (hover: hover) {
+  
+  a:hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 5px solid rgb(7, 197, 255);/* 添加蓝色底部边框 */
+  transition: bottom 0.3s ease; /* 添加过渡效果 */
+  }
+
+    a:active::after {
+      border-bottom-color: rgb(35, 38, 40);
+      /* 点击时底部边框颜色变为红色 */
+    }
+
+}
+
