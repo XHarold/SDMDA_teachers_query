@@ -1,5 +1,6 @@
-## tearchers_query
+# UESTC_tearchers_query
 
+我们选择电子科技大学的教师主页作为信息源，通过前后端分离的方式制作网站，为用户提供教师信息查询服务。
 该项目为数媒学院副教授展示网页制作，以vue.js语言vite项目为框架。
 代码主体为./src/App.vue, ./src/components/Card.vue以及main.py文件。
 Card.vue文件处理教师卡片展示逻辑。
